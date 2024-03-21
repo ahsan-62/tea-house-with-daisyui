@@ -20,6 +20,7 @@
       tailwind.config = {
         theme: {
           extend: {
+            backgroundImage: {},
             colors: {
               clifford: "#da373d",
               "btn-tea": "gradient-to-r from-[#F00] to-[#FF8938]",
@@ -199,80 +200,98 @@
       </section>
 
       <section
-        class="flex flex-col gap-5 my-20 md:flex-row lg:flex-row bg-gradient-to-r from-[#F00] to-[#FF8938] px-16 py-24 rounded-lg"
+        class="flex flex-col gap-16 my-20 md:flex-row lg:flex-row bg-gradient-to-r from-[#F00] to-[#FF8938] px-16 py-24 rounded-lg"
       >
-        <div class="space-y-5">
-          <h3 class="text-5xl font-extrabold text-white">
-            Meet Our Super<br />Clients
+        <div class="flex items-center lg:pr-28">
+          <div class="space-y-5">
+            <h3 class="text-5xl font-extrabold text-white">
+              Meet Our Super<br />Clients
+            </h3>
+            <p class="text-base font-medium text-white">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <button
+              class="btn bg-gradient-to-l from-[#F00] to-[#FF8938] text-white"
+              type="button"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="relative z-10 p-10 rounded-lg mb-14 opacity-40 bg-base-100"
+          >
+            <img
+              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+            <div class="flex justify-end">
+              <img class="absolute" src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="absolute p-10 z-20 rounded-lg top-32 lg:-left-24 bg-base-100 lg:w-[430px]"
+          >
+            <img
+              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+            <div class="flex justify-end">
+              <img class="absolute" src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <div class="relative z-10 p-10 rounded-lg opacity-40 bg-base-100">
+            <img
+              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-base">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+            <div class="flex justify-end">
+              <img class="absolute" src="images/circles.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News & Event Section -->
+
+      <section>
+        <div>
+          <h3 class="text-5xl font-extrabold text-center text-[#1C1C1C]">
+            News &amp; Event
           </h3>
-          <p class="text-base font-medium text-white">
+          <p
+            class="p-2 mx-auto text-base font-medium text-center text-[#777] max-w-4xl"
+          >
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <button
-            class="btn bg-gradient-to-l from-[#F00] to-[#FF8938] text-white"
-            type="button"
-          >
-            Show All
-          </button>
-        </div>
-        <div class="relative">
-          <div
-            class="relative z-10 p-10 rounded-lg mb-14 opacity-40 bg-base-100 lg:w-[430px] md:w-[430px]"
-          >
-            <img
-              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
-              src="images/client.png"
-              alt=""
-            />
-            <p class="text-base">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
-            <p>Businessman</p>
-            <div class="flex justify-end">
-              <img class="absolute" src="images/circles.png" alt="" />
-            </div>
-          </div>
-          <div
-            class="absolute p-10 z-20 rounded-lg top-32 lg:top-32 lg:-left-40 bg-base-100 lg:w-[430px] md:w-[430px]"
-          >
-            <img
-              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
-              src="images/client.png"
-              alt=""
-            />
-            <p class="text-base">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
-            <p>Businessman</p>
-            <div class="flex justify-end">
-              <img class="absolute" src="images/circles.png" alt="" />
-            </div>
-          </div>
-          <div
-            class="relative z-10 p-10 rounded-lg opacity-40 bg-base-100 md:w-[430px] lg:w-[430px]"
-          >
-            <img
-              class="absolute bg-white border-4 rounded-full -top-10 -left-8"
-              src="images/client.png"
-              alt=""
-            />
-            <p class="text-base">
-              We are providing the best and suitable home insurance services for
-              the people who are interested to treatment
-            </p>
-            <h4 class="mt-5 font-bold">Ilham Yuda</h4>
-            <p>Businessman</p>
-            <div class="flex justify-end">
-              <img class="absolute" src="images/circles.png" alt="" />
-            </div>
-          </div>
         </div>
       </section>
     </main>
